@@ -3,7 +3,19 @@
 
 const prompt = require("prompt-sync")()
 
-for (let i = 1; i <= 30; i++) {
+//for (let i = 1; i <= 30; i++) {
+//    if (i === 27) {
+//        break
+//    } 
+//    else {
+//        console.log(i)
+//    }
+//}
+
+let i = 1
+
+while(i <= 30) {
+    i++
     if (i === 27) {
         break
     } 

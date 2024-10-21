@@ -3,12 +3,23 @@
 
 const prompt = require("prompt-sync")()
 
-for (let i = 1; i <= 20; i++) {
+//for (let i = 1; i <= 20; i++) {
+//    if (i % 2 === 0) {
+//        console.log(`${i} É Primo`);
+//    }
+//    else {
+//        console.log(`${i} Não é primo`)
+//    }      
+//}
+
+let i = 1
+
+while (i <= 20) {
+    i ++
     if (i % 2 === 0) {
         console.log(`${i} É Primo`);
     }
     else {
         console.log(`${i} Não é primo`)
     } 
-     
 }

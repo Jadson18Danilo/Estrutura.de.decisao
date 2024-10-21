@@ -4,12 +4,24 @@
 
 const prompt = require("prompt-sync")()
 
-for (let i = 1; i <= 20; i++) {
+//for (let i = 1; i <= 20; i++) {
+//    if (i % 3 === 0) {
+//        console.log(`${i} Fizz`);
+//    } 
+//    else if (i % 5 === 0) {
+//        console.log(`${i} Buzz`)
+//    }
+
+//}
+
+let i = 1
+
+while (i <= 20) {
+    i++
     if (i % 3 === 0) {
         console.log(`${i} Fizz`);
     } 
     else if (i % 5 === 0) {
         console.log(`${i} Buzz`)
     }
-
 }
